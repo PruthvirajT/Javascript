@@ -1,8 +1,12 @@
 <html>
  <body>
-  <h1></h1>
+  <h1  id="h"></h1>
+  <button onclick="a()">Click</button>
   <script>
-  document.getElementByTagName("h1").innerHTML="Hello World!";
+  function a(){
+  var x=document.getElementById("h");
+  x.innerHTML="Hello World!";
+  }
   </script>
  </body>
-</html> 
+</html>
